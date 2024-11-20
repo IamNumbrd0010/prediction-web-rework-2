@@ -1,0 +1,128 @@
+/* Style for select dropdowns */
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #4CAF50;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+  width: 100%; /* Ensure select dropdowns take full width on small screens */
+  box-sizing: border-box; /* Include padding and borders in width */
+}
+
+select:hover {
+  background-color: #eaf8ea;
+}
+
+select option {
+  padding: 8px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+select option:hover {
+  background-color: #d0e8d0;
+  color: #ff0000;
+}
+
+/* Optional - center the dropdown within each table cell */
+td select {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container styling */
+.matches-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: auto; /* Allow horizontal scroll if content overflows */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #af4c4c;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive table for small screens */
+@media screen and (max-width: 768px) {
+  /* Adjust table layout on smaller screens */
+  thead {
+    display: none;
+  }
+
+  tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  tbody td {
+    text-align: right;
+    padding: 10px;
+    position: relative;
+  }
+
+  tbody td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Scrollable dropdown for mobile */
+  select {
+    max-height: 150px; /* Limit dropdown height */
+    overflow-y: auto; /* Enable vertical scrolling if too many options */
+  }
+}
+
+/* General grid layout for large screens */
+.bet, .pred {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(8, 1fr); /* Default: 8 columns for larger screens */
+}
+
+/* Adjust grid layout for medium screens */
+@media screen and (max-width: 1200px) {
+  .bet, .pred {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on medium screens */
+  }
+}
+
+/* Adjust grid layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .bet, .pred {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+/* Adjust grid layout for mobile screens */
+@media screen and (max-width: 480px) {
+  .bet, .pred {
+    grid-template-columns:(8, 1fr); /* 1 column on mobile screens */
+  }
+}

@@ -1,0 +1,223 @@
+[
+  {
+      "match": "Manu vs Chelsea",
+      "stats": {
+          "ShotsOnTarget": {
+              "Total1": 5.44,
+              "Total2": 5.33,
+              "D_Chance1x": 0.505,
+              "D_Chance2x": 0.495,
+              "X": "X"
+          },
+          "CornerKick": {
+              "Total1": 6.222,
+              "Total2": 5.778,
+              "D_Chance1x": 0.519,
+              "D_Chance2x": 0.481,
+              "X": 1
+          },
+          "Fouls": {
+              "Total1": 10.667,
+              "Total2": 11.222,
+              "D_Chance1x": 0.487,
+              "D_Chance2x": 0.513,
+              "X": 2
+          },
+          "YellowCard": {
+              "Total1": 3,
+              "Total2": 4,
+              "D_Chance1x": 0.429,
+              "D_Chance2x": 0.571,
+              "X": 2
+          },
+          "ThrowIns": {
+              "Total1": 18.667,
+              "Total2": 13.778,
+              "D_Chance1x": 0.575,
+              "D_Chance2x": 0.425,
+              "X": 1
+          },
+          "Saves": {
+              "Total1": 2.222,
+              "Total2": 3.889,
+              "D_Chance1x": 0.364,
+              "D_Chance2x": 0.636,
+              "X": 2
+          },
+          "Offsides": {
+              "Total1": 1.778,
+              "Total2": 1.778,
+              "D_Chance1x": 0.5,
+              "D_Chance2x": 0.5,
+              "X": "X"
+          }
+      }
+  },
+  {
+      "match": "Liverpool vs Arsenal",
+      "stats": {
+          "ShotsOnTarget": {
+              "Total1": 6.123,
+              "Total2": 4.987,
+              "D_Chance1x": 0.515,
+              "D_Chance2x": 0.485,
+              "X": "1"
+          },
+          "CornerKick": {
+              "Total1": 7.305,
+              "Total2": 6.102,
+              "D_Chance1x": 0.523,
+              "D_Chance2x": 0.477,
+              "X": 1
+          },
+          "Fouls": {
+              "Total1": 11.314,
+              "Total2": 10.558,
+              "D_Chance1x": 0.493,
+              "D_Chance2x": 0.507,
+              "X": 2
+          },
+          "YellowCard": {
+              "Total1": 4,
+              "Total2": 3,
+              "D_Chance1x": 0.562,
+              "D_Chance2x": 0.438,
+              "X": 1
+          },
+          "ThrowIns": {
+              "Total1": 16.743,
+              "Total2": 14.882,
+              "D_Chance1x": 0.547,
+              "D_Chance2x": 0.453,
+              "X": "X"
+          },
+          "Saves": {
+              "Total1": 3.401,
+              "Total2": 4.092,
+              "D_Chance1x": 0.352,
+              "D_Chance2x": 0.648,
+              "X": 2
+          },
+          "Offsides": {
+              "Total1": 2.102,
+              "Total2": 2.389,
+              "D_Chance1x": 0.482,
+              "D_Chance2x": 0.518,
+              "X": "X"
+          }
+      }
+  },
+  
+    {
+      "match": "Real Madrid vs Barcelona",
+      "stats": {
+        "ShotsOnTarget": {
+          "Total1": 7.25,
+          "Total2": 6.87,
+          "D_Chance1x": 0.511,
+          "D_Chance2x": 0.489,
+          "X": "X"
+        },
+        "CornerKick": {
+          "Total1": 9.43,
+          "Total2": 8.22,
+          "D_Chance1x": 0.522,
+          "D_Chance2x": 0.478,
+          "X": 1
+        },
+        "Fouls": {
+          "Total1": 13.1,
+          "Total2": 14.3,
+          "D_Chance1x": 0.493,
+          "D_Chance2x": 0.507,
+          "X": 2
+        },
+        "YellowCard": {
+          "Total1": 4,
+          "Total2": 5,
+          "D_Chance1x": 0.429,
+          "D_Chance2x": 0.571,
+          "X": 2
+        },
+        "ThrowIns": {
+          "Total1": 17.78,
+          "Total2": 14.21,
+          "D_Chance1x": 0.58,
+          "D_Chance2x": 0.42,
+          "X": 1
+        },
+        "Saves": {
+          "Total1": 3.67,
+          "Total2": 4.22,
+          "D_Chance1x": 0.45,
+          "D_Chance2x": 0.55,
+          "X": 2
+        },
+        "Offsides": {
+          "Total1": 2.12,
+          "Total2": 2.34,
+          "D_Chance1x": 0.49,
+          "D_Chance2x": 0.51,
+          "X": "X"
+        }
+      }
+    },
+    {
+      "match": "Bayern Munich vs Borussia Dortmund",
+      "stats": {
+        "ShotsOnTarget": {
+          "Total1": 8.12,
+          "Total2": 5.98,
+          "D_Chance1x": 0.53,
+          "D_Chance2x": 0.47,
+          "X": 1
+        },
+        "CornerKick": {
+          "Total1": 7.56,
+          "Total2": 6.89,
+          "D_Chance1x": 0.524,
+          "D_Chance2x": 0.476,
+          "X": "X"
+        },
+        "Fouls": {
+          "Total1": 10.67,
+          "Total2": 12.35,
+          "D_Chance1x": 0.48,
+          "D_Chance2x": 0.52,
+          "X": 2
+        },
+        "YellowCard": {
+          "Total1": 3,
+          "Total2": 4,
+          "D_Chance1x": 0.42,
+          "D_Chance2x": 0.58,
+          "X": 1
+        },
+        "ThrowIns": {
+          "Total1": 16.5,
+          "Total2": 13.9,
+          "D_Chance1x": 0.55,
+          "D_Chance2x": 0.45,
+          "X": "X"
+        },
+        "Saves": {
+          "Total1": 2.98,
+          "Total2": 3.68,
+          "D_Chance1x": 0.44,
+          "D_Chance2x": 0.56,
+          "X": 2
+        },
+        "Offsides": {
+          "Total1": 1.93,
+          "Total2": 2.21,
+          "D_Chance1x": 0.48,
+          "D_Chance2x": 0.52,
+          "X": 1
+        }
+      }
+    }
+  
+  
+]
+
+
